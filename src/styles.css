@@ -1,0 +1,26 @@
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+  align-items: center;
+  justify-content: center;
+}
+
+#tooltip {
+  position: absolute;
+  background-color: orange;
+  padding: 10px;
+  border-radius: 10px;
+  border: solid 2px orangered;
+  font-weight: bold;
+}
+
+#footer {
+  position: relative;
+  top: 30px;
+  font-size: 1.5em;
+}
+
+#footer a {
+  color: black;
+}
