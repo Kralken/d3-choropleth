@@ -4,7 +4,10 @@ import { Legend } from './color-legend';
 import './styles.css';
 
 //first link is the map topographical data, second link is the education levels per county
-let urls = ['./counties.json', './for_user_education.json'];
+let urls = [
+  'https://cdn.freecodecamp.org/testable-projects-fcc/data/choropleth_map/counties.json',
+  'https://cdn.freecodecamp.org/testable-projects-fcc/data/choropleth_map/for_user_education.json',
+];
 let height = 800;
 let width = 1200;
 let padding = { left: 50, top: 100, bottom: 100, right: 25 };
